@@ -1,0 +1,21 @@
+{
+  "name": "multiplayer-car-parking",
+  "version": "1.0.0",
+  "description": "A multiplayer 3D car parking game with realistic driving physics",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["multiplayer", "parking", "3d", "game"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
